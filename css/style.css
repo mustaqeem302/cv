@@ -1,0 +1,735 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    position: relative;
+    background-color: #e8e8e8;
+    max-width: 1366px;
+    margin: 0px auto;
+    width: 90%;
+}
+
+.ProfileIntro {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    color: #fff;
+    background-color: #073B90;
+}
+
+img {
+    width: 266px;
+    height: 318px;
+    margin-right: 23.5px;
+    margin-left: 23.5px
+}
+
+.col2 {
+    text-align: center;
+}
+
+.Biographic {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 16px;
+    line-height: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+h5 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #2257a7;
+    padding: 5px 0px;
+    border-radius: 25px;
+    margin: 17px 0 17px;
+}
+
+
+/*Skill Section Style*/
+
+.skillSection {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    border-radius: 16px;
+    justify-content: center;
+    background-color: #282726;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 41px;
+    font-weight: 800;
+}
+
+.skillBiographi {
+    line-height: 27px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.skillIcon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 0px;
+
+}
+
+.skillIcon img {
+    margin: 0px;
+    width: 68px;
+    height: 68px;
+}
+
+.skillIcon p {
+
+    font-size: 16px;
+    font-weight: 800;
+
+}
+
+.skillLeftIcon {
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.skillRightIcon {
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+
+/* detail section Style*/
+
+.detailSection {
+    background-color: #2257a7;
+    color: #fff;
+    font-size: 18px;
+    padding: 25px 25px 25px;
+    display: flex;
+}
+
+.detailSection img {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+
+.align {
+    display: flex;
+    align-items: center;
+}
+
+/*Experience Section Style*/
+.primarySectionExp {
+    background-color: #fff;
+    width: 69%;
+    margin-top: 28px;
+    padding: 70px 18px 110px;
+    border-radius: 16px;
+}
+
+.ExpDetail {
+    color: #555655;
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.primarySectionExp h2 {
+    margin-top: 0px;
+    color: #2257a7;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.ExpHeadingPosition {
+    font-size: 24px;
+    font-weight: 900;
+    color: #2257a7;
+}
+
+.ExpHeadingCompany {
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+}
+
+.ExperienceMonth {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 900;
+    background-color: #2257a7;
+    text-transform: uppercase;
+    padding: 6px 20px;
+    border-radius: 20px;
+}
+
+.expColParient {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.expCol1 {
+    transform: rotate(-90deg);
+}
+
+.borderLine {
+    padding-bottom: 25px;
+    border-bottom: dotted #e4e4e9 2px;
+}
+
+.borderLine {
+    padding-bottom: 25px;
+    border-bottom: dotted #e4e4e9 2px;
+}
+
+
+
+/*Certifications Section style*/
+
+.certPrimaryContent {
+    background-color: #fff;
+    padding: 15px 46px;
+    border-radius: 16px;
+    position: absolute;
+    top: 900px;
+    right: 25px;
+}
+
+.certSecondryContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.certPrimaryContent h3 {
+    text-align: center;
+    font-weight: 800;
+    color: #2257a7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 33px;
+}
+
+.certPrimaryContent p {
+    color: #555655;
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.aligmentTick h2 {
+    margin: 8px 2px;
+}
+
+.aligmentTick {
+    display: flex;
+    margin-right: 12px;
+    align-items: center;
+}
+
+.aligmentTick h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+.certPrimaryContent img {
+    width: 18px;
+    height: 18px;
+    margin: 0px;
+}
+
+.borderLine2 {
+    padding-bottom: 15px;
+    border-bottom: dotted #e4e4e9 2px;
+}
+
+
+
+
+/*Eduaction Section style*/
+.PrimaryContentEdu {
+    background-color: #fff;
+    width: 98.5%;
+    margin-top: 28px;
+    padding: 18px 46px;
+    border-radius: 16px;
+}
+
+.SecondaryContentEdu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.SecondaryEduCol {
+    display: flex;
+}
+
+.PrimaryContentEdu h2 {
+    font-weight: 800;
+    color: #2257a7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.SubEduCol1 p {
+    font-weight: 800;
+    color: #000;
+    font-size: 15px;
+}
+
+
+.eduDuration {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 900;
+    background-color: #2257a7;
+    text-transform: uppercase;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.instituteName {
+    font-size: 20px;
+    font-weight: 900;
+    color: #2257a7;
+}
+
+.cityName {
+    font-size: 17px;
+    font-weight: 900;
+    color: #000;
+}
+
+.eduDetail {
+    color: #555655;
+    opacity: 0.8;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.SubEduCol2 {
+    margin-left: 20px;
+}
+
+
+.borderLine3 {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: dotted #e4e4e9 2px;
+}
+
+
+
+
+/*Hobby Section style*/
+.primaryContentHob {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 98.5%;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    padding: 15px 46px;
+    border-radius: 16px;
+}
+
+.primaryContentHob h2 {
+    font-weight: 800;
+    color: #2257a7;
+    margin-top: 10px;
+    margin-right: 120px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.secondryContentHob {
+    flex-grow: 2;
+}
+
+.secondryContentHob img {
+    width: 47px;
+    height: 71px;
+}
+
+.secondryContentHob {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobSectionRow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.primaryContentHob p {
+    color: #3f4040;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 3px 5px;
+}
+
+
+
+
+
+/* Media Qureey Different Screen*/
+@media screen and (max-width: 1300px) {
+    .primarySectionExp {
+
+        padding: 30px 18px;
+    }
+
+
+    .ProfileIntro {
+        justify-content: center;
+    }
+
+    .skillIcon {
+        margin-top: 50px;
+    }
+
+    .skillSection {
+        align-items: center;
+        flex-direction: row;
+        position: static;
+        border-radius: 0px;
+    }
+
+    .detailSection {
+        justify-content: center;
+    }
+
+    .primarySectionExp {
+        border-radius: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+
+    .certPrimaryContent {
+        background-color: #fff;
+        padding: 30px 18px;
+        border-radius: 0px;
+        position: static;
+    }
+    
+    .certSecondryContent {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-between;     
+    flex-direction: row;
+}
+
+    .certPrimaryContent h3 {
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .borderLine2 {
+        border-bottom: none;
+    }
+
+
+
+    .PrimaryContentEdu {
+        padding: 30px 18px;
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+
+    .borderLine3 {
+        padding: 0px;
+        border-right: 0px;
+    }
+
+    .primaryContentHob {
+        width: 100%;
+        padding: 30px 18px;
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+
+    .primaryContentHob h2 {
+        margin-right: 80px;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 940px) {
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .expColParient {
+
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .expCol1 {
+        margin-top: 30px;
+        transform: rotate(0deg);
+    }
+
+    .SecondaryContentEdu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+
+    }
+
+    .borderLine3 {
+        border-right: 0px;
+    }
+    
+
+
+    .primaryContentHob {
+        flex-wrap: wrap;
+    }
+
+
+    .primaryContentHob h2 {
+        margin-right: 10px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 610px) {
+
+    .detailSection {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 266px;
+        height: 318px;
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .col1 {
+        margin-top: 0px;
+    }
+
+    .Biographic {
+        font-size: 11px;
+    }
+
+    .skillBiographi {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .skillIcon {
+        margin-top: 0px;
+    }
+
+    .skillIcon img {
+        width: 58px;
+        height: 58px;
+    }
+
+    .skillIcon p {
+
+        font-size: 12px;
+
+    }
+
+    .skillSection {
+        flex-direction: column;
+
+    }
+
+    .detailSection {
+        font-size: 15px;
+        padding: 20px 25px 20px;
+        display: flex;
+    }
+
+    .detailSection img {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .ExpDetail {
+
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .primarySectionExp h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+
+    .ExpHeadingPosition {
+        font-size: 18px;
+    }
+
+    .ExpHeadingCompany {
+        font-size: 13px;
+    }
+
+    .ExperienceMonth {
+        font-size: 12px;
+        color: #fff;
+        padding: 6px 20px;
+    }
+
+    .borderLine {
+        padding-bottom: 0px;
+        border-bottom: none;
+    }
+
+.certSecondryContent {
+    flex-direction: column;
+}
+
+
+    .certPrimaryContent h3 {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+
+    .certPrimaryContent p {
+
+        font-size: 13px;
+        line-height: 20px;
+
+    }
+
+
+    .aligmentTick h2 {
+        font-size: 15px;
+    }
+
+
+    .certPrimaryContent img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .PrimaryContentEdu h2 {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+
+    .SubEduCol1 p {
+        font-size: 12px;
+    }
+
+
+    .eduDuration {
+        font-size: 12px;
+        padding: 6px 12px;
+        border-radius: 20px;
+    }
+
+    .instituteName {
+        font-size: 17px;
+    }
+
+    .cityName {
+        font-size: 15px;
+    }
+
+    .eduDetail {
+        font-size: 13px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+
+    .primaryContentHob {
+        flex-direction: column;
+    }
+
+    .primaryContentHob h2 {
+        align-self: flex-start;
+        margin-top: 0px;
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .secondryContentHob {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .secondryContentHob img {
+    width: 40px;
+    height: 64px;
+}
+
+}
