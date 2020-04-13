@@ -11,6 +11,7 @@ body {
     width: 90%;
 }
 
+
 .ProfileIntro {
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +22,7 @@ body {
     color: #fff;
     background-color: #073B90;
 }
+
 
 img {
     width: 266px;
@@ -313,6 +315,7 @@ h3 {
 .eduDuration {
     font-size: 14px;
     color: #fff;
+    white-space: nowrap;
     font-weight: 900;
     background-color: #2257a7;
     text-transform: uppercase;
@@ -731,5 +734,9 @@ h3 {
     width: 40px;
     height: 64px;
 }
+    
+    br{
+        display: none;
+    }    
 
 }
