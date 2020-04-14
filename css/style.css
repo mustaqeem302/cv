@@ -129,6 +129,9 @@ h3 {
     padding: 25px 25px 25px;
     display: flex;
 }
+.comaSperation {
+    display: none;
+}
 
 .detailSection img {
     width: 50px;
@@ -622,6 +625,10 @@ h3 {
         height: 35px;
         margin-right: 10px;
     }
+    
+    .detialRightInfo img{
+        margin-left: 13px;
+    }
 
     .ExpDetail {
 
@@ -737,6 +744,10 @@ h3 {
     
     br{
         display: none;
-    }    
+    }
+    
+    .comaSperation {
+    display: inline;
+}
 
 }
